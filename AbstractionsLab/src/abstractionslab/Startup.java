@@ -9,8 +9,8 @@ package abstractionslab;
  *
  * @author schra_000
  */
-public class Truck implements Vehicle{
-    private String make;
-    private String model;
-    private double year;
+public class Startup {
+    public static void main(String[] args) {
+        
+    }
 }

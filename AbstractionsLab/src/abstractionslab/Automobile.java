@@ -9,6 +9,6 @@ package abstractionslab;
  *
  * @author schra_000
  */
-public class Automobile {
+public abstract class Automobile {
     
 }

@@ -9,6 +9,7 @@ package abstractionslab;
  *
  * @author schra_000
  */
-public class Vehicle {
-    
+public interface Vehicle {
+    public int wheels = 4;
+    public boolean steeringWheel = true;
 }
