@@ -9,6 +9,6 @@ package abstractionslab;
  *
  * @author schra_000
  */
-public abstract class Automobile {
-    
+public abstract class Tacoma extends Truck{
+    private String color;
 }
