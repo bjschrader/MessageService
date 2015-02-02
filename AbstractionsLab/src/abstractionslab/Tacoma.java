@@ -7,7 +7,7 @@ package abstractionslab;
 
 /**
  *
- * @author schra_000
+ * @author Brian Schrader
  */
 public abstract class Tacoma extends Truck{
     private String color;

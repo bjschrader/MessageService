@@ -7,7 +7,7 @@ package abstractionslab;
 
 /**
  *
- * @author schra_000
+ * @author Brian Schrader
  */
 public class Startup {
     public static void main(String[] args) {

@@ -7,7 +7,7 @@ package abstractionslab;
 
 /**
  *
- * @author schra_000
+ * @author Brian Schrader
  */
 public interface Vehicle {
     public int wheels = 4;

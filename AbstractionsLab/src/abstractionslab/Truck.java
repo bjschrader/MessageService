@@ -7,7 +7,7 @@ package abstractionslab;
 
 /**
  *
- * @author schra_000
+ * @author Brian Schrader
  */
 public class Truck implements Vehicle{
     private String make;
