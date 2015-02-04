@@ -34,5 +34,22 @@ public class HumanResourcesDepartment {
     public void setCubeId(String cubeId) {
         this.cubeId = cubeId;
     }
+
+    public Date getCurrentDate() {
+        return currentDate;
+    }
+
+    public void setCurrentDate(Date currentDate) {
+        this.currentDate = currentDate;
+    }
+
+    public Employee getEmployee() {
+        return employee;
+    }
+
+    public void setEmployee(Employee employee) {
+        this.employee = employee;
+    }
+    
     
 }

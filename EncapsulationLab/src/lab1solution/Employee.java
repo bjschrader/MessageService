@@ -18,8 +18,8 @@ public class Employee {
     private boolean movedIn;
     private String cubeId;
     private Date currentDate;
-    private SimpleDateFormat sdf = new SimpleDateFormat("M/d/yyyy");
-    private String fmtDate = sdf.format(currentDate);
+    //private SimpleDateFormat sdf = new SimpleDateFormat("M/d/yyyy");
+    //private String fmtDate = sdf.format(currentDate);
 
     public Employee() {
         currentDate = new Date();

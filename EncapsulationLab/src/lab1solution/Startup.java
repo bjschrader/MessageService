@@ -12,6 +12,7 @@ public class Startup {
         employee.setFirstName("Bob");
         employee.setLastName("Vila");
         employee.setSsn("867-53-0999");
+        
         HumanResourcesDepartment hrd = new HumanResourcesDepartment();
         
         employee.meetDepartmentStaff();
