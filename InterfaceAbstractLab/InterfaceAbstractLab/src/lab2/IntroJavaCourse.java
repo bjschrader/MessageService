@@ -19,6 +19,7 @@ public class IntroJavaCourse implements CollegeProgrammingCourse {
         super();
     }
 
+    @Override
     public double getCredits() {
         return credits;
     }
@@ -31,6 +32,7 @@ public class IntroJavaCourse implements CollegeProgrammingCourse {
         this.prerequisites = prerequisites;
     }
 
+    @Override
     public void setCredits(double credits) {
         if(credits < 0 || credits > 4.0) {
             System.out.println(
@@ -40,10 +42,12 @@ public class IntroJavaCourse implements CollegeProgrammingCourse {
         this.credits = credits;
     }
 
+    @Override
     public String getCourseNumber() {
         return courseNumber;
     }
 
+    @Override
     public final void setCourseNumber(String courseNumber) {
         if(courseNumber == null || courseNumber.length() == 0) {
             JOptionPane.showMessageDialog(null,
@@ -53,6 +57,7 @@ public class IntroJavaCourse implements CollegeProgrammingCourse {
         this.courseNumber = courseNumber;
     }
 
+    @Override
     public final void setCourseName(String courseName) {
         if(courseName == null || courseName.length() == 0) {
             JOptionPane.showMessageDialog(null,
@@ -62,6 +67,7 @@ public class IntroJavaCourse implements CollegeProgrammingCourse {
         this.courseName = courseName;
     }
 
+    @Override
     public String getCourseName() {
         return courseName;
     

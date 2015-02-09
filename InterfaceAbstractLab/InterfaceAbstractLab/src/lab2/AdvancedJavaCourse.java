@@ -19,6 +19,7 @@ public class AdvancedJavaCourse implements CollegeProgrammingCourse {
         this.setCourseNumber(courseNumber);
     }
 
+    @Override
     public String getCourseNumber() {
         return courseNumber;
     }
@@ -33,6 +34,7 @@ public class AdvancedJavaCourse implements CollegeProgrammingCourse {
         //this.courseNumber = courseNumber;
     }
 
+    @Override
     public double getCredits() {
         return credits;
     }
@@ -47,6 +49,7 @@ public class AdvancedJavaCourse implements CollegeProgrammingCourse {
         //this.credits = credits;
     }
 
+  
     public String getPrerequisites() {
         return prerequisites;
     }
@@ -60,6 +63,7 @@ public class AdvancedJavaCourse implements CollegeProgrammingCourse {
         this.prerequisites = prerequisites;
     }
 
+    @Override
     public String getCourseName() {
         return courseName;
     }
