@@ -3,19 +3,17 @@ package lab1;
 import javax.swing.JOptionPane;
 
 /**
- * Describe responsibilities here. NOTE: this class has NO PREREQUISITES!
- * Do not change this fact.
+ * Describe responsibilities here. NOTE: this class has NO PREREQUISITES! Do not
+ * change this fact.
  *
- * @author      your name goes here
- * @version     1.00
+ * @author your name goes here
+ * @version 1.00
  */
 public class IntroToProgrammingCourse extends CollegeProgrammingCourse {
-    
+
     private IntroToProgrammingCourse(String courseName, String courseNumber, double credits) {
         super(courseNumber, courseNumber, credits);
     }
-
-    
 
     @Override
     public final void setCourseNumber(String courseNumber) {
@@ -24,9 +22,8 @@ public class IntroToProgrammingCourse extends CollegeProgrammingCourse {
                     "Error: courseNumber cannot be null of empty string");
             System.exit(0);
         }
-       super.setCourseName(courseNumber);
+        super.setCourseName(courseNumber);
     }
-
 
     @Override
     public void setCredits(double credits) {
@@ -38,8 +35,6 @@ public class IntroToProgrammingCourse extends CollegeProgrammingCourse {
         //super.setCredits(credits);
     }
 
-    
-
     @Override
     public final void setCourseName(String courseName) {
         if (courseName == null || courseName.length() == 0) {
@@ -50,5 +45,4 @@ public class IntroToProgrammingCourse extends CollegeProgrammingCourse {
         //super.setCourseName(courseName);
     }
 
-    
 }

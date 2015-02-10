@@ -16,11 +16,7 @@ public class AdvancedJavaCourse extends CollegeProgrammingCourse {
         super(courseName, courseNumber, credits);
     }
 
-    public String getCapitalizedCourseName() {
-        return this.getCourseName().toUpperCase();
-    }
-
-    public String getPrerequisites() {
+       public String getPrerequisites() {
         return prerequisites;
     }
 
